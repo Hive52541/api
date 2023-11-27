@@ -1,0 +1,21 @@
+
+final 키워드
+final 클래스
+        public final class String{
+
+        }
+        이 클래스를 상속받아서 자식 클래스를 정의할 수 없다.
+
+
+final 메소드
+        public class Onject{
+            public String toString(){...}
+            public final Class<?> getClass(){...}
+            public final void notify(){...}
+        }
+        이 메소드를 자식 클래스에서 재정의 할 수 없다.
+final  변수 - 값변경 금지
+        public final class Math{
+            final double PI = 3.14xxxxx;
+        }
+        이 변수의 값을 변경할 수 없다.
